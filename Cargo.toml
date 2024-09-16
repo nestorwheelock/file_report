@@ -1,0 +1,11 @@
+[package]
+name = "file_report"
+version = "0.1.0"
+edition = "2021"
+description = "file_report is a tool that generates detailed disk usage reports including the largest directories, largest files, and cache file usage."
+authors = ["Nestor Wheelock <nestor@nestorwheelock.com>"]
+license = "GPL-3.0"
+
+[dependencies]
+walkdir = "2.3.3"
+fs_extra = "1.2.0"
